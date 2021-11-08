@@ -1,0 +1,52 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    padding-right: 30px;
+    font-size: 40px;
+    display: inline;
+    font-family: Algerian;
+}
+#x,#y{
+    color: darkgray;
+}
+
+.login{
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    border: 2px white;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;
+    margin-left: 500px;
+}
+.labelat{
+    border: lightgray;
+    margin-bottom: 5px;
+    padding-left: 20pt;
+    padding-right: 20pt;
+    border-radius: 20px;
+    background-color: lightgray;
+    width: 250px;
+    height: 40px;
+}
+#butoni{
+    background-color: blue;
+    border: blue;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    padding-left: 20pt;
+    padding-right: 20pt;
+    width: 300px;
+    height: 40px;
+}
+.fotot{
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
