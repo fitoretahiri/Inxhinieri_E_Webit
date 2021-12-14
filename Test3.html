@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        /*function myFunction01(){
+            confirm('Konfirmoj funksionin e JS');
+        }*/
+       /* function ndrroNgj(){
+            document.getElementById('t01').style.color="blue";
+        }
+        function ndrroFont(){
+            document.getElementById('t01').style.fontSize="30pt";
+        }*/
+        function shtoDhenat(){
+            var lenda=prompt('Shto lenden','');
+            var grupi=prompt('Shto grupin','');
+            var llojiS=prompt('Lloji sesionit','');
+            var varguIM=[lenda,grupi,llojiS];
+            for (var i=0;i<varguIM.length;i++){
+                document.writeln(varguIM[i]);
+                console.log(varguIM[i]);
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <h2>Vendosja e JS ne pjesen e HEADIT</h2>
+    <script src="skriptaJS01.js">
+    </script>
+    <!--h1 id="t01" onclick="ndrroNgj()" ondblclick="ndrroFont()">Ketu simulojme funksionin e JS per CSS</h1>
+    <button onclick="alert('Une jam nje funksion');">Kliko per te shfaq info</button>
+    <button onclick="myFunction02();">Kliko per te thirr funksionin</button-->
+    <button onclick="shtoDhenat()">Shto te dhenat</button>
+</body>
+</html>

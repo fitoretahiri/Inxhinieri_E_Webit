@@ -239,6 +239,22 @@ h5{
     background-color: #20135b;
     border: none;
     margin-bottom: 3.2%;
+
+}
+::-webkit-input-placeholder:after {
+    content: '*';
+}
+
+:-moz-placeholder:after { /* Firefox 18- */
+    content: '*';
+}
+
+::-moz-placeholder:after {  /* Firefox 19+ */
+    content: '*';
+}
+
+:-ms-input-placeholder:after {
+    content: '*';
 }
 #labela-e-trete{
     width: 550px;
